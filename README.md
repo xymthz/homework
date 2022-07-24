@@ -4,8 +4,8 @@
 SM3密码Hash算法输出Hash值的长度为256比特。  
 （1）如果只考虑SM3输出的前n bits，利用生日攻击，要使至少找到一对碰撞的概率大于0. 5，则选取的随机输入数量至少为![1](http://latex.codecogs.com/svg.latex?2^{n/2})。考虑的n越大，需要的输入越多。   
 比如，考虑SM3输出的前32bits，则至少需要216个输入能以0.5的概率找到一对碰撞：
-![image](https://github.com/xymthz/homework/blob/main/directory/Project1_%E5%9B%BE%E7%89%871.png)
-![image](https://github.com/xymthz/homework/blob/main/directory/Project1_%E5%9B%BE%E7%89%872.png)
+![image](https://github.com/xymthz/homework/blob/main/images/Project1_%E5%9B%BE%E7%89%871.png)
+![image](https://github.com/xymthz/homework/blob/main/images/Project1_%E5%9B%BE%E7%89%872.png)
 这里time 计算运行所需时间的单位为秒。
 本次运行中，使用了![2](http://latex.codecogs.com/svg.latex?2^{17})个输入，以提高找到碰撞的概率。  
 
